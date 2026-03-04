@@ -84,6 +84,8 @@ def semana1():
 
     # LINK AL FORMULARIO
     st.success("FORMULARIO: (https://forms.gle/HyMZBGY7ht9j7WpQ8)")
+
+    ---
     
     st.info("Construye átomos")
     phet1 = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"
