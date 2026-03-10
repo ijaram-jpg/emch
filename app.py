@@ -125,13 +125,6 @@ def semana2():
     phet1 = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"
     st.components.v1.iframe(phet1, width=800, height=600, scrolling=False)
     
-    st.info("Estados de la materia")
-    phet2 = "https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-matter-basics_en.html"
-    st.components.v1.iframe(phet2, width=800, height=600, scrolling=False)
-
-
-
-
     st.markdown("### Complementario: Simulación interactiva")
     phet = "https://phet.colorado.edu/sims/html/isotopes-and-atomic-mass/latest/isotopes-and-atomic-mass_all.html"
     components.iframe(phet, width=900, height=600)
