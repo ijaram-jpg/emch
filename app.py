@@ -42,6 +42,9 @@ def Home():
     st.markdown("### Bachillerato en Ciencias Militares | Ciencias y Humanidades")
     st.markdown("---")
 
+    st.info("CLASE VIRTUAL 10 DE MARZO DEL 2026")
+    st.info("https://meet.google.com/wok-jrhk-tgb")
+    
     st.write("""
     Bienvenidos al curso de **Química General 2026**.
     
@@ -67,8 +70,8 @@ def Home():
 def semana1():
     st.header("Semana 1: Presentación del Curso y Materia", divider="rainbow")
 
-    st.subheader("🎯 Objetivo")
-    st.write("Comprender la estructura del átomo y aplicar correctamente los números cuánticos.")
+    st.subheader("🎯 Logro esperado")
+    st.write("Comprender cómo se  define la materia, su clasificación y los cambios que se producen.")
 
     diapositivas = "https://docs.google.com/presentation/d/1BgfShN-ydYaG7XEoKnM4uWa3aeIMRwPm/preview"
     components.iframe(diapositivas, width=900, height=500)
@@ -100,14 +103,35 @@ def semana1():
 # ==================================================
 
 def semana2():
-    st.header("Semana 2: Estructura Atómica y Números Cuánticos", divider="rainbow")
+    st.header("Semana 2: Estructura Atómica", divider="rainbow")
 
-    st.subheader("🎯 Objetivo")
-    st.write("Comprender la estructura del átomo y aplicar correctamente los números cuánticos.")
+    st.subheader("🎯 Logro esperado")
+    st.write("Identificar y calcular las partículas subatómicas que presenta el átomo, además comprender los cuatro números cuánticos que representan al electrón.")
 
-    diapositivas = "https://docs.google.com/presentation/d/1mrNHsc_6a0d4AQsiWsYsQvvRqqctcFey/preview"
+    diapositivas = "https://docs.google.com/presentation/d/1Z1_-Pk9oK6SHwPLM0ZDqTCTKBlrH8lvL/preview"
     components.iframe(diapositivas, width=900, height=500)
+
+    st.markdown("---")
     
+    st.subheader("🧪 Actividad 2")
+    st.write("1. Ingresa a https://numeroscuanticos.streamlit.app/ y resuelve 3 ejercicios")
+    st.write("2. Da click en el botón 'VERIFICAR RESPUESTA' y captura la evidencia")
+    st.write("3. Súbelo en formato PDF a tu GITHUB, con tu nombre completo en mayúsculas seguido de la palabra actividad2 en minúsculas (no usar espacios, ni guiones)")
+    st.info("Ejemplo: JUANESTEBANMARTINEZOSORIOactividad2.pdf")
+
+    st.markdown("---")
+    
+    st.info("Construye átomos")
+    phet1 = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"
+    st.components.v1.iframe(phet1, width=800, height=600, scrolling=False)
+    
+    st.info("Estados de la materia")
+    phet2 = "https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-matter-basics_en.html"
+    st.components.v1.iframe(phet2, width=800, height=600, scrolling=False)
+
+
+
+
     st.markdown("### Complementario: Simulación interactiva")
     phet = "https://phet.colorado.edu/sims/html/isotopes-and-atomic-mass/latest/isotopes-and-atomic-mass_all.html"
     components.iframe(phet, width=900, height=600)
@@ -117,20 +141,20 @@ def semana2():
 # ==================================================
 
 def semana3():
-    st.header("Semana 3: Configuración Electrónica y Tabla Periódica", divider="rainbow")
+    st.header("Semana 3: Configuración Electrónica", divider="rainbow")
 
-    st.subheader("🎯 Objetivo")
-    st.write("Relacionar configuración electrónica con propiedades periódicas.")
+    st.subheader("🎯 Logro esperado")
+    st.write("Comprender los principios de la configuración electrónica y desarrollar la configuración electrónica de átomos y iones.")
 
-    diapositivas = "https://docs.google.com/presentation/d/1-DfJRnfVsC4PgaiBUFDLZ1eoEV1Ix0MP/preview"
+    diapositivas = "https://docs.google.com/presentation/d/1fWv7XNZGIz02af9a22yk7vAmptsr6g3U/preview"
     components.iframe(diapositivas, width=900, height=500)
 
-    st.subheader("🧪 Actividad")
-    st.write("""
-    - Determinar grupo y período de 15 elementos.
-    - Justificar tendencias periódicas.
-    - Identificar elementos estratégicos militares.
-    """)
+    st.subheader("🧪 Actividad 3")
+    #st.write("""
+    #- Determinar grupo y período de 15 elementos.
+    #- Justificar tendencias periódicas.
+    #- Identificar elementos estratégicos militares.
+    #""")
 
     phet = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"
     components.iframe(phet, width=900, height=600)
@@ -146,10 +170,10 @@ def semana3():
 def semana4():
     st.header("Semana 4: Unidades Químicas de Masa", divider="rainbow")
 
-    st.subheader("🎯 Objetivo")
-    st.write("Aplicar correctamente mol, masa molar y número de Avogadro.")
+    st.subheader("🎯 Logro esperado")
+    #st.write("Aplicar correctamente mol, masa molar y número de Avogadro.")
 
-    st.subheader("🧪 Actividad")
+    st.subheader("🧪 Actividad 4")
     #st.write("""
     #- 20 ejercicios de conversión mol ↔ gramos.
     #- Problemas aplicados a logística militar.
@@ -165,7 +189,7 @@ def semana4():
 def semana5():
     st.header("Semana 5: ", divider="rainbow")
 
-    st.subheader("🎯 Objetivo")
+    st.subheader("🎯 Logro esperado")
 
 # ==================================================
 # SEMANA 6
@@ -174,7 +198,7 @@ def semana5():
 def semana6():
     st.header("Semana 6: ", divider="rainbow")
 
-    st.subheader("🎯 Objetivo")
+    st.subheader("🎯 Logro esperado")
 
 # ==================================================
 # SEMANA 7
@@ -183,7 +207,7 @@ def semana6():
 def semana7():
     st.header("Semana 7: ", divider="rainbow")
 
-    st.subheader("🎯 Objetivo")
+    st.subheader("🎯 Logro esperado")
     
 # ==================================================
 # SEMANA 8
@@ -192,7 +216,7 @@ def semana7():
 def semana8():
     st.header("Semana 8: ", divider="rainbow")
 
-    st.subheader("🎯 Objetivo")
+    st.subheader("🎯 Logro esperado")
 
 # ==================================================
 # SEMANA 9
@@ -201,7 +225,7 @@ def semana8():
 def semana9():
     st.header("Semana 9: ", divider="rainbow")
 
-    st.subheader("🎯 Objetivo")
+    st.subheader("🎯 Logro esperado")
 
 # ==================================================
 # SEMANA 10
@@ -210,7 +234,7 @@ def semana9():
 def semana10():
     st.header("Semana 10: ", divider="rainbow")
 
-    st.subheader("🎯 Objetivo")
+    st.subheader("🎯 Logro esperado")
 
 # ==================================================
 # SEMANA 11
@@ -219,7 +243,7 @@ def semana10():
 def semana11():
     st.header("Semana 11: ", divider="rainbow")
 
-    st.subheader("🎯 Objetivo")
+    st.subheader("🎯 Logro esperado")
 
 # ==================================================
 # SEMANA 12
@@ -228,7 +252,7 @@ def semana11():
 def semana12():
     st.header("Semana 12: ", divider="rainbow")
 
-    st.subheader("🎯 Objetivo")
+    st.subheader("🎯 Logro esperado")
 
 # ==================================================
 # SEMANA 13
@@ -237,7 +261,7 @@ def semana12():
 def semana13():
     st.header("Semana 13: ", divider="rainbow")
 
-    st.subheader("🎯 Objetivo")
+    st.subheader("🎯 Logro esperado")
 
 # ==================================================
 # SEMANA 14
@@ -246,7 +270,7 @@ def semana13():
 def semana14():
     st.header("Semana 14: ", divider="rainbow")
 
-    st.subheader("🎯 Objetivo")
+    st.subheader("🎯 Logro esperado")
 
 # ==================================================
 # SEMANA 15
@@ -255,7 +279,7 @@ def semana14():
 def semana15():
     st.header("Semana 15: EXAMEN FINAL", divider="rainbow")
 
-    st.subheader("🎯 Objetivo")
+    st.subheader("🎯 Logro esperado")
 
 
 # ==================================================
