@@ -105,6 +105,9 @@ def semana1():
 def semana2():
     st.header("Semana 2: Estructura Atómica", divider="rainbow")
 
+    st.info("CLASE VIRTUAL 10 DE MARZO DEL 2026")
+    st.warning("https://meet.google.com/wok-jrhk-tgb")
+
     st.subheader("🎯 Logro esperado")
     st.write("Identificar y calcular las partículas subatómicas que presenta el átomo, además comprender los cuatro números cuánticos que representan al electrón.")
 
