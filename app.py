@@ -60,7 +60,7 @@ def Home():
     st.markdown(f"[⬇️ Descargar Sílabo Oficial]({silabo_url})")
 
     st.markdown("---")
-    st.success("⚠️ Cada semana incluye actividad obligatoria con entrega mediante formulario.")
+    st.success("⚠️ Cada semana incluye actividad obligatoria.")
     st.text("IMPORTANTE: La actividad se deja el martes y la revisión es el miércoles")
 
 # ==================================================
